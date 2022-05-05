@@ -10,10 +10,9 @@
  */
 #include <stdio.h> 
 #include <string.h> 
-#include <stdint.h>
 #include "Ascii.h"
 
-void SUM(int l, char *mychar)
+void ADD(int l, char *mychar)
 {   
     char* name = mychar;
      int add=0;
