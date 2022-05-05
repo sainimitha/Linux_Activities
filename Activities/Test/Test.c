@@ -25,7 +25,7 @@ void ADD(int, char*)
 int main(void)
 {
     UNITY_BEGIN();
-     RUN_TEST(test_add);
+     RUN_TEST(test_ADD);
  
     return UNITY_END();
 }
