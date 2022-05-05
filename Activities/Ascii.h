@@ -8,7 +8,13 @@
  * @copyright Copyright (c) 2022
  * 
  */
-#include "Ascii.h"
+
+#ifdef _ASCII_H_
+#define _ASCII_H_
+
+#include <stdio.h> 
+#include <string.h> 
+#include <stdint.h>
 
 int  main()
 {
@@ -20,3 +26,5 @@ int  main()
     SUM(l,mychar);
     return 0;
 }
+
+#endif
