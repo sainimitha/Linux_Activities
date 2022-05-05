@@ -1,6 +1,6 @@
 #include <unity.h>
 #include <unity_internals.h>
-#include "Ascii.c"
+#include "Ascii.h"
 
 #define PROJECT_NAME "LINUX_ACTIVITIES"
 
