@@ -10,5 +10,8 @@ Run : Build
 static_analysis:
    cppcheck --enable=all $(SRC)
 
+dynamic_analysis: Build
+   valgrind ./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
 Clean:
 	$(RM) $(call FixPath,*.out)
