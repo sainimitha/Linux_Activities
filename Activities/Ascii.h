@@ -8,9 +8,7 @@
  * @copyright Copyright (c) 2022
  * 
  */
-#include <stdio.h> 
-#include <string.h> 
-#include <stdint.h>
+#include "Ascii.h"
 
 int  main()
 {
