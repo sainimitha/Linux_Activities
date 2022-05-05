@@ -12,6 +12,10 @@ static_analysis:
 
 dynamic_analysis: Build
    valgrind ./$(call FixPath,$(PROJ_NAME).$(EXEC))
+coverage:
+	gcc -fprofile-arcs -ftest-coverage $(SRC) -Iinc -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
 
 Clean:
 	$(RM) $(call FixPath,*.out)
